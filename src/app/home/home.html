@@ -1,0 +1,32 @@
+<body class=" bg-white h-full">
+    <app-header/>
+    <main class="flex gap-10 pt-1 h-full min-h-screen" >
+        <app-sidebar/>
+            <div class="h-full w-full flex flex-col gap-2">
+                <h1 class="font-bold text-4xl mt-2 mb-2">Inicio</h1>
+                <div class="flex flex-wrap justify-start gap-5 h-full w-full ">
+                    <app-card
+                        titulo="Proveedores" 
+                        descripcion="lorem ipsum dolor sit amet consectetur adipisicing elit." 
+                        imagenUrl="assets/proveedores.jpg"
+                        linkButton="#"
+                        buttonText="Ir">
+                    </app-card>
+                    <app-card
+                        titulo="Evaluaciones" 
+                        descripcion="lorem ipsum dolor sit amet consectetur adipisicing elit." 
+                        imagenUrl="assets/evaluaciones.jpg"
+                        linkButton="#"
+                        buttonText="Ir">
+                    </app-card>
+                    <app-card
+                        titulo="Reportes" 
+                        descripcion="lorem ipsum dolor sit amet consectetur adipisicing elit." 
+                        imagenUrl="assets/reportes.png"
+                        linkButton="#"
+                        buttonText="Ir">
+                    </app-card>
+                </div>
+            </div>
+    </main>
+</body>
